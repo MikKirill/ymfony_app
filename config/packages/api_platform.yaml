@@ -1,0 +1,25 @@
+api_platform:
+  oauth:
+    # To enable or disable OAuth.
+    enabled: true
+
+    # The OAuth client ID.
+    clientId: 'da3af53e65af1a402bbe336d65fdf23f'
+
+    # The OAuth client secret.
+    clientSecret: 'c51c56a0df719af842e764f6bf1e385410641a70a8b8b1aed0950094b4775f8249391224fc66ad04f3b1ca7f112edc80a0e695b9420df3084cac138e0db76512'
+
+    # The OAuth type.
+    type: 'oauth2'
+
+    # The OAuth flow grant type.
+    flow: 'password'
+
+    # The OAuth token url.
+    tokenUrl: '/token'
+
+    # The OAuth authentication url.
+    authorizationUrl: '/oauth/v2/auth'
+
+    # The OAuth scopes.
+    scopes: []
